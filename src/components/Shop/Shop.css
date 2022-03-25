@@ -1,0 +1,15 @@
+.products-container {
+    width: 80%;
+}
+.cart-conatiner{
+    width: 30%;
+    height: 70vh;
+}
+@media screen and (max-width: 992px) {
+    .products-container{
+        width: 100%;
+    }
+    .cart-conatiner{
+        width: 100%;
+    }
+}
