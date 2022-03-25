@@ -1,0 +1,68 @@
+[
+    {
+        "id": "pet001",
+        "name": "MAX",
+        "price": 120,
+        "img": "https://www.freepik.com/free-photo/cute-spitz_6255618.htm#&position=0&from_view=detail#&position=0&from_view=detail"
+    },
+    {
+        "id": "pet002",
+        "name": "KOBE",
+        "price": 240,
+        "img": "https://www.freepik.com/free-photo/portrait-grumpy-striped-cat-sunlight-with-blurry-background_17247154.htm"
+    },
+    {
+        "id": "pet003",
+        "name": "OSCAR",
+        "price": 220,
+        "img": "https://www.freepik.com/free-photo/spaniel-puppy-playing-studio-cute-doggy-pet-is-sitting-isolated-blue-background-cavalier-king-charles-negative-space-insert-your-text-image-concept-movement-animal-rights_13935121.htm"
+    },
+    {
+        "id": "pet004",
+        "name": "REX",
+        "price": 160,
+        "img": "https://www.freepik.com/free-photo/portrait-adorable-domestic-white-kitten-floor-with-blurry-background_22859274.htm"
+    },
+    {
+        "id": "pet005",
+        "name": "RUDY",
+        "price": 520,
+        "img": "https://www.freepik.com/free-photo/smiling-brown-white-basenji-dog-listening-music-large-black-wireless-headphones-isolated-white_11829628.htm#&position=8&from_view=detail#&position=8&from_view=detail"
+    },
+    {
+        "id": "pet006",
+        "name": "WALTER",
+        "price": 440,
+        "img": "https://www.freepik.com/free-photo/really-beautiful-face-black-lab-puppy-dog_19782734.htm"
+    },
+    {
+        "id": "pet007",
+        "name": "JASPER",
+        "price": 240,
+        "img": "https://www.freepik.com/free-photo/selective-focus-shot-adorable-german-shepherd-outdoors-during-daylight_14703863.htm"
+    },
+    {
+        "id": "pet008",
+        "name": "MILO",
+        "price": 220,
+        "img": "https://www.freepik.com/free-photo/selective-focus-shot-cute-cat_17528796.htm"
+    },
+    {
+        "id": "pet009",
+        "name": "MAC",
+        "price": 188,
+        "img": "https://www.freepik.com/free-photo/beagles-puppies-looking-something_5598032.htm"
+    },
+    {
+        "id": "pet0010",
+        "name": "ODIN",
+        "price": 360,
+        "img": "https://www.freepik.com/free-photo/portrait-black-white-cat_20605361.htm"
+    },
+    {
+        "id": "pet0011",
+        "name": "TANK",
+        "price": 299,
+        "img": "https://www.freepik.com/free-photo/closeup-shot-beautiful-ginger-domestic-kitten-sitting-white-surface_14195938.htm"
+    }
+]
