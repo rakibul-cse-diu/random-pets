@@ -6,8 +6,9 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './Products.css';
 
 const Products = (props) => {
-    console.log(props)
-    const { img, name, price } = props.pet;
+    // console.log(props)
+    const handleAddToCart = props.handleAddToCart;
+    const { img, name, price, id } = props.pet;
     return (
         <div className='col-12 col-lg-4'>
             <div className='product'>
@@ -16,7 +17,7 @@ const Products = (props) => {
                     <h4>Name: {name}</h4>
                     <p>Price: ${price}</p>
                 </div>
-                <button className='btn btn-warning fs-5'>Add to cart <FontAwesomeIcon icon={faShoppingCart} /></button>
+                <button className='btn btn-warning fs-5' onClick={() => handleAddToCart(id)}>Add to cart <FontAwesomeIcon icon={faShoppingCart} /></button>
             </div>
         </div>
     );
