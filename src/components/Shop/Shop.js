@@ -1,4 +1,3 @@
-import { Alert } from 'bootstrap';
 import React, { useEffect, useState } from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Cart from '../Cart/Cart';
@@ -35,6 +34,18 @@ const Shop = () => {
         }
         setCarts(newCart);
     }
+
+    // handle choose pet
+    const handleChoosePet = (number) => {
+        const selectedPet = Carts[number]
+        console.log(selectedPet);
+    }
+
+    // Handle Reset button 
+    const handleReset = () => {
+        setCarts([]);
+    }
+
     return (
         <div className='d-flex flex-column-reverse flex-lg-row justify-content-center align-items-start mb-5 ms-2 me-2'>
             <div className='products-container'>
@@ -45,7 +56,7 @@ const Shop = () => {
                 </div>
             </div>
             <div className='cart-conatiner col-12 col-lg-4 bg-warning bg-opacity-25 sticky-lg-top mt-4 mb-5'>
-                <Cart items={Carts}></Cart>
+                <Cart items={Carts} handleReset={handleReset} handleChoosePet={handleChoosePet} ></Cart>
             </div>
         </div>
     );
