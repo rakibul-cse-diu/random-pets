@@ -3,25 +3,25 @@
         "id": "pet001",
         "name": "MAX",
         "price": 120,
-        "img": "https://www.freepik.com/free-photo/cute-spitz_6255618.htm#&position=0&from_view=detail#&position=0&from_view=detail"
+        "img": "https://img.freepik.com/free-photo/cute-spitz_144627-7076.jpg?w=740&t=st=1648222303~exp=1648222903~hmac=7a5d8b858ccc2699b201f107015305b65378dd8376ef37488d65f63eff2e42c6"
     },
     {
         "id": "pet002",
         "name": "KOBE",
         "price": 240,
-        "img": "https://www.freepik.com/free-photo/portrait-grumpy-striped-cat-sunlight-with-blurry-background_17247154.htm"
+        "img": "https://img.freepik.com/free-photo/portrait-grumpy-striped-cat-sunlight-with-blurry-background_181624-45985.jpg?w=740&t=st=1648222284~exp=1648222884~hmac=5c9732a24df7633588b3493de38b849ed7cc53cbba3ceaf34561bb57742cad3a"
     },
     {
         "id": "pet003",
         "name": "OSCAR",
         "price": 220,
-        "img": "https://www.freepik.com/free-photo/spaniel-puppy-playing-studio-cute-doggy-pet-is-sitting-isolated-blue-background-cavalier-king-charles-negative-space-insert-your-text-image-concept-movement-animal-rights_13935121.htm"
+        "img": "https://img.freepik.com/free-photo/spaniel-puppy-playing-studio-cute-doggy-pet-is-sitting-isolated-blue-background-cavalier-king-charles-negative-space-insert-your-text-image-concept-movement-animal-rights_155003-33840.jpg?w=826&t=st=1648222259~exp=1648222859~hmac=5efe4769fb003fcc931755aa34c6695409b825170cbeba888c35c11b8648e0a5"
     },
     {
         "id": "pet004",
         "name": "REX",
         "price": 160,
-        "img": "https://www.freepik.com/free-photo/portrait-adorable-domestic-white-kitten-floor-with-blurry-background_22859274.htm"
+        "img": "https://img.freepik.com/free-photo/portrait-adorable-domestic-white-kitten-floor-with-blurry-background_181624-55090.jpg?w=740&t=st=1648222130~exp=1648222730~hmac=e9fb5bfbd337e8f2ebf685d895238a57f4756dd7d464db80dbe347f0aef84c83"
     },
     {
         "id": "pet005",
@@ -33,36 +33,36 @@
         "id": "pet006",
         "name": "WALTER",
         "price": 440,
-        "img": "https://www.freepik.com/free-photo/really-beautiful-face-black-lab-puppy-dog_19782734.htm"
+        "img": "https://img.freepik.com/free-photo/really-beautiful-face-black-lab-puppy-dog_493961-625.jpg?w=740&t=st=1648222075~exp=1648222675~hmac=440222306a80bb7cc0969e8a6a9cf5a9c502d5b8ca1a668bce89dd5c2b264fdf"
     },
     {
         "id": "pet007",
         "name": "JASPER",
-        "price": 240,
-        "img": "https://www.freepik.com/free-photo/selective-focus-shot-adorable-german-shepherd-outdoors-during-daylight_14703863.htm"
+        "price": 1240,
+        "img": "https://img.freepik.com/free-photo/selective-focus-shot-adorable-german-shepherd-outdoors-during-daylight_181624-36837.jpg?w=740&t=st=1648222040~exp=1648222640~hmac=dc37d166bddaebd40ee2328af5a4b36bf630d9277e01fdafeff7ecfe158d1da8"
     },
     {
         "id": "pet008",
         "name": "MILO",
         "price": 220,
-        "img": "https://www.freepik.com/free-photo/selective-focus-shot-cute-cat_17528796.htm"
+        "img": "https://img.freepik.com/free-photo/selective-focus-shot-cute-cat_181624-48697.jpg?w=740&t=st=1648222014~exp=1648222614~hmac=44ca9bc65b9db3e7bca811e07e44d344c0039b283db1a7c190e48ebf075fbda9"
     },
     {
         "id": "pet009",
         "name": "MAC",
         "price": 188,
-        "img": "https://www.freepik.com/free-photo/beagles-puppies-looking-something_5598032.htm"
+        "img": "https://img.freepik.com/free-photo/beagles-puppies-looking-something_1150-18193.jpg?w=826&t=st=1648221982~exp=1648222582~hmac=40f5f94f2f6abfa537f024a5497e73b28d50a63c80d5bfe09f67404fdad4b791"
     },
     {
         "id": "pet0010",
         "name": "ODIN",
         "price": 360,
-        "img": "https://www.freepik.com/free-photo/portrait-black-white-cat_20605361.htm"
+        "img": "https://img.freepik.com/free-photo/portrait-black-white-cat_181624-53790.jpg?w=740&t=st=1648221956~exp=1648222556~hmac=aad27d4ba22047e46b89a957400a7da66211c85d5a3ed38769f52d5d913a972a"
     },
     {
         "id": "pet0011",
         "name": "TANK",
         "price": 299,
-        "img": "https://www.freepik.com/free-photo/closeup-shot-beautiful-ginger-domestic-kitten-sitting-white-surface_14195938.htm"
+        "img": "https://img.freepik.com/free-photo/closeup-shot-beautiful-ginger-domestic-kitten-sitting-white-surface_181624-35913.jpg?w=740&t=st=1648221901~exp=1648222501~hmac=c9a72a56af8232053e2391d18112b637de9fd24b90c0aaeb1629ea4592d77947"
     }
 ]
