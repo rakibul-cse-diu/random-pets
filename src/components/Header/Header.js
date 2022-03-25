@@ -4,7 +4,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
     return (
-        <div className='bg-dark d-flex align-items-end'>
+        <div className='bg-dark d-flex align-items-end mb-5'>
             <img src={logo} alt="" height={70} />
             <h3 className='text-white'>Random Pets</h3>
         </div>
