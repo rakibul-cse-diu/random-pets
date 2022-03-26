@@ -1,3 +1,11 @@
 .cart-item img{
     border-radius: 50%;
 }
+.delete-item-btn{
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.582);
+}
+.delete-item-btn:hover{
+    background-color: gainsboro;
+    color: red;
+}

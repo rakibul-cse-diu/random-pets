@@ -38,14 +38,28 @@ const Shop = () => {
 
     // handle choose pet
     const handleChoosePet = () => {
-        const randomNum = Math.floor(Math.random() * 4)
-        const NewselectedPet = Carts[randomNum];
-        setSelecetdPet(NewselectedPet);
+        if (Carts[3]) {
+            const randomNum = Math.floor(Math.random() * 4)
+            const NewselectedPet = Carts[randomNum];
+            setSelecetdPet(NewselectedPet);
+        } else {
+            alert("Please select 4 pets.");
+        }
+
     }
 
     // Handle Reset button 
     const handleReset = () => {
         setCarts([]);
+        setSelecetdPet({});
+    }
+
+    // handle delete of single item
+    const handleSingleItem = id => {
+        const selectedItem = Carts.find(item => item.id === id)
+        const restItem = Carts.filter(item => item.id !== selectedItem.id);
+        const newCartsItems = [...restItem];
+        setCarts(newCartsItems);
         setSelecetdPet({});
     }
 
@@ -70,7 +84,7 @@ const Shop = () => {
                 </div>
             </div>
             <div className='cart-conatiner col-12 col-lg-4 bg-warning bg-opacity-25 sticky-lg-top mt-4 mb-5'>
-                <Cart items={Carts} handleReset={handleReset} handleChoosePet={handleChoosePet} ></Cart>
+                <Cart items={Carts} handleReset={handleReset} handleChoosePet={handleChoosePet} handleSingleItem={handleSingleItem} ></Cart>
             </div>
         </div>
     );
