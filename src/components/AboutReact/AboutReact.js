@@ -6,6 +6,8 @@ import './AboutReact.css';
 const AboutReact = () => {
     return (
         <div className='p-5'>
+            <hr />
+            <br />
             <h1 className='mb-5'>Learn about React</h1>
             <div>
                 <h6 className='text-decoration-underline'>How does React works?</h6>
@@ -35,7 +37,13 @@ const AboutReact = () => {
                         </tr>
                     </tbody>
                 </table>
+                <br />
+                <br />
+                <h6 className='text-decoration-underline'>How useState works?</h6>
+                <p>useState is a Hook that enables state variables to be used in functional components. This function takes the starting state and returns a variable with the current state value and another function to update it. In function components, the useState hook lets us to declare one or more state variables. React maintains track of these state variables in the background and guarantees that they are updated on successive re-renders of the component.</p>
             </div>
+            <br />
+            <hr />
         </div>
     );
 };
