@@ -9,6 +9,6 @@ Open [Netlify link](https://incandescent-rugelach-89e11f.netlify.app/)
 ** Delete single item by press on trash icon. \
 ** Delete all selected item from cart by click on reset button. \
 ** Get alert when try to selec more than 4 items on cart. \
-** Get alert for randomly choose 1 item for you without select 4 items. \
+** Get alert for randomly choose 1 item for you without select 4 items.
 
 # lucky-one-rakibul-cse-diu
