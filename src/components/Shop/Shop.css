@@ -5,6 +5,10 @@
     width: 30%;
     height: 70vh;
 }
+.random-selected-pet{
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
 @media screen and (max-width: 992px) {
     .products-container{
         width: 100%;

@@ -8,6 +8,7 @@ import './Shop.css';
 const Shop = () => {
     const [Pets, setPets] = useState([]);
     const [Carts, setCarts] = useState([]);
+    const [SelectedPet, setSelecetdPet] = useState({});
 
     // Load Data 
     useEffect(() => {
@@ -36,19 +37,32 @@ const Shop = () => {
     }
 
     // handle choose pet
-    const handleChoosePet = (number) => {
-        const selectedPet = Carts[number]
-        console.log(selectedPet);
+    const handleChoosePet = () => {
+        const randomNum = Math.floor(Math.random() * 4)
+        const NewselectedPet = Carts[randomNum];
+        setSelecetdPet(NewselectedPet);
     }
 
     // Handle Reset button 
     const handleReset = () => {
         setCarts([]);
+        setSelecetdPet({});
     }
 
     return (
         <div className='d-flex flex-column-reverse flex-lg-row justify-content-center align-items-start mb-5 ms-2 me-2'>
-            <div className='products-container'>
+            <div className='products-container d-flex flex-column justify-content-center align-items-center'>
+                {
+                    !SelectedPet.id ?
+                        <div></div> :
+                        <div className='random-selected-pet p-5 bg-success bg-opacity-50 w-75 d-flex flex-column align-items-center'>
+                            <img className='w-50 mb-3' src={SelectedPet.img} alt="" />
+                            <h5>Name: {SelectedPet.name}</h5>
+                            <h5>price: ${SelectedPet.price}</h5>
+                            <br />
+                            <button className='btn btn-primary'>Get Now</button>
+                        </div>
+                }
                 <div className='row g-4 m-0 p-0 mb-5'>
                     {
                         Pets.map(products => <Products pet={products} key={products.id} handleAddToCart={handleAddToCart}></Products>)
