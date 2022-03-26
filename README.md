@@ -1,7 +1,7 @@
 # Random Pets Shop
 
 ## Live site link
-Open [Netlify link](https://incandescent-rugelach-89e11f.netlify.app/)
+Open live site: [Netlify link](https://incandescent-rugelach-89e11f.netlify.app/)
 
 ### Fearures
 ** Select 4 petes by click on add to cart button. \
